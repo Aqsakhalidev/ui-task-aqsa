@@ -1,0 +1,279 @@
+.body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+    line-height: 1.5;
+    width: 100%;
+    overflow-x: hidden !important;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.white{
+	color:rgba(3, 29, 46, 0.836);
+    background-color:white;
+}
+
+.green{
+	color:white;
+    background-color:rgb(29, 168, 142);
+}
+
+.heading{
+	font-size:45px;
+	text-align: center;
+    font-weight:bolder;
+    margin-bottom: 5px;
+}
+.seperator {
+    width: 100px;
+    display: inline-block;
+    padding-top: 0%;
+    margin: 2px 0 2px;
+    font-weight: bolder;
+    border-radius: 4px;
+  }
+
+  .img-icon{
+    width: 250px;
+    height:250px;
+    margin-top:90px;
+  }
+  .clr-white{
+    border-top: 5px solid white;
+  }
+  .clr-blue{
+    border-top: 5px solid rgba(21, 33, 39, 0.9);
+  }
+  
+  .left {
+    float: left;
+  }
+
+  .right {
+  float: right;
+  }
+
+.p-about{ 
+    font-size: 20px;
+    text-align: left;
+}
+.p-left{
+    margin-left: 30%;
+}
+.p-right{
+
+    margin-right: 30%;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.end{
+	background-color:rgba(3, 29, 46, 0.836);
+	color:rgb(253, 253, 253);
+}
+
+
+.div-class{
+	text-align: center;
+    padding: 5% 7%;
+}
+.img-container{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 40px;
+}
+.btn-download {
+    background-color: rgb(29, 168, 142);
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.btn-download:hover{
+    background-color: white;
+    color: rgba(3, 29, 46, 0.836);
+    cursor: pointer;
+}
+
+.send{
+	border: 1px solid white;
+	color:white;
+	background-color:rgb(29, 168, 142);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.send:hover{
+    background-color: rgb(21, 128, 108);
+}
+.text{
+	background-color: transparent;
+    color: #343544;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    font-size: 25px;
+    width: 70%;
+    padding: 2%;
+}
+
+.rad{
+  border-radius: 5px;
+}
+
+.i-rect{
+    margin: 15px;
+    width:332px;
+    height: 239px;
+    border-radius: 7px;
+}
+.copyright{
+	background-color:rgba(21, 33, 39, 0.9);
+    color:white;
+    text-align: center;
+    padding: 25px;
+} 
+
+.circular-square {
+    border-radius: 50%;
+  }
+
+.location{
+    column-count: 3;
+    column-gap: 0;
+
+}
+span{
+    font-size: 50px;
+}
+.about{
+    column-count: 2;
+    column-gap: 0;
+}
+.container{
+    width: 100%;
+}
+.border-round {
+    border-radius: 50%;
+    border:white solid 2px;
+  } 
+
+.link-end{
+    color: rgb(30, 179, 151);
+    text-decoration: none;
+}
+.link-end:hover{
+    color: rgb(14, 141, 118);
+}
+.icon{
+    padding: 20px;
+    text-decoration: none;
+    margin: 20px 6px;
+    background-color:none;
+    color:white;
+    font-size: 20px !important;
+    width: 16px;
+    height: 16px;
+}
+
+  .social-media-icon a:hover{
+      background-color: white;
+      color: #2c3e50;
+  }
+
+  .heading-small{
+      font-weight: bolder;
+      font-size:25px;
+  }
+
+.input-contact{
+    margin:30px;
+    margin-left: 25%;
+    text-align: left;
+
+}
+.div-web{
+    margin-left: 15%;
+}
+.p-web{
+    font-size: 20px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+  @media only screen and (max-width: 992px)
+{    
+    .location{
+        column-count: 1;
+    
+    }
+    .about{
+        column-count: 1;
+    }
+
+    .p-left{
+        margin-left: 0;
+    }
+    .p-right{
+        margin-right: 0;
+    }
+
+    .input-contact{
+        margin-left: 0px;
+        text-align: left;
+
+    }
+    .div-web{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+        
+    .location{
+        column-count: 1;
+    
+    }
+    .about{
+        column-count: 1;
+    }
+
+    .p-left{
+        margin-left: 0;
+    }
+    .p-right{
+        margin-right: 0;
+    }
+
+
+    .input-contact{
+        margin-left: 0px;
+        text-align: left;
+
+    }
+    .div-web{
+        margin: 0;
+    }
+
+    .img-container{
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text{
+        width: 90%;
+    }
+}
+

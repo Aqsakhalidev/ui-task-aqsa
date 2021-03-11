@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>
+            Start Bootstrap
+        </title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="CSS/try.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body class="body">
+        
+        <nav class="navbar">
+            
+            <h1 class="nav-heading">START BOOTSTRAP</h1>
+            <ul class="main-nav" id="js-main-nav">
+                
+                <li>
+                    <a href="#prt" class="nav-links active">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#abt" class="nav-links">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#cntct" class="nav-links">CONTACT</a>
+                </li>
+                
+            </ul>
+            <span class="navbar-toggle menu" id="js-navbar-toggle">
+                <i class="fa fa-bars "></i>MENU
+            </span>
+        </nav>
+
+
+        <div class="container">
+            <div class="div-class green"> 
+                <img class="img-icon circular-square" src="images/user.png" alt="user icon" >
+                <h1 class="heading"> START BOOTSTRAP </h1>
+                <div><hr class="seperator clr-white"> &nbsp; <span>&#9733; </span> <hr class="seperator clr-white"> </div>  
+                <p> Graphic Artist - Web Designer - Illustrator </p>
+            </div>
+
+            <div id="prt" class="img-container white">
+                <h1 class="heading">PORTFOLIO</h1>
+                <div> <hr class="seperator clr-blue"> &nbsp; <span>&#9733; </span> <hr class="seperator clr-blue"> </div>  
+                <img class = "i-rect"  src="images/1.PNG" alt="image1" > 
+                <img class = "i-rect"  src="images/2.PNG" alt="image2 " > 
+                <img class = "i-rect"  src="images/3.PNG" alt="image3 " > 
+                <img class = "i-rect"  src="images/4.PNG" alt="image4 " > 
+                <img class = "i-rect"  src="images/5.PNG" alt="image5 " > 
+                <img class = "i-rect"  src="images/6.PNG" alt="image6 " >
+
+            </div>
+
+            <div id="abt" class="div-class green"> 
+                <h1 class="heading">ABOUT</h1>
+                <div><hr class="seperator clr-white"> &nbsp; <span>&#9733; </span> <hr class="seperator clr-white"> </div>  
+                <div class="about">
+                    <div class="div-class p-left">
+                        <p class="p-about">
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylsheets for easy customization. 
+                        </p>
+                    </div>
+                    <div class="div-class p-right">
+                        <p class="p-about">
+                            You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                        </p>
+                    </div>
+                </div>
+                <div><button class="btn-download"><i class="fa fa-download"></i> Free Download!</button></div>
+            </div>
+
+            <div id="cntct" class="div-class white">
+                <h1 class="heading">CONTACT ME</h1>
+                <div><hr class="seperator clr-blue"> &nbsp; <span>&#9733; </span> <hr class="seperator clr-blue"> </div>  
+                
+                <div>
+                    <div class="input-contact"> <input class="text" type="text"  placeholder="Name"/></div>
+                    <div class="input-contact"> <input class="text" type="email"   placeholder="Email Address"/></div>
+                    <div class="input-contact"> <input type="tel" class="text" placeholder="Phone Number"/></div>
+                    <div class="input-contact"> <textarea class = "text"  placeholder="Message" name="msg" rows="4" cols="50"></textarea></div>
+                    <div class="input-contact"> <button class="send" type="button">Send</button> </div>
+                </div>
+            </div>
+
+
+            <div class="div-class end location">
+                <div class="div-web">
+                    <h1 class="heading-small">LOCATION</h1>
+                    <p class="p-web"> 2215 John Daniel Drive Clark,<br> MO 65243 </p>
+                </div>
+
+                <div class = "div-web social-media-icon"> 
+                    <h1 class="heading-small"> AROUND THE WEB </h1>
+                    <a href="#" class="icon fa fa-facebook border-round"></a>
+                    <a href="#" class="icon fa fa-google-plus border-round"></a>
+                    <a href="#" class="icon fa fa-twitter border-round"></a>
+                    <a href="#" class="icon fa fa-linkedin border-round"></a>
+                </div>    
+                <div class="div-web">    
+                    <h1 class="heading-small"> ABOUT FREELANCER </h1>
+                    <p class="p-web"> Freelance is a free to use, MIT licenced Bootstrap theme created by <a class="link-end" href="#"> Start Bootstrap.</a></p>
+                </div> 
+            </div>
+            <div class="copyright"> Copyright &#169; Your Website 2020</div>
+    </div>
+       
+    <script>
+        let mainNav = document.getElementById("js-main-nav");
+        let navBarToggle = document.getElementById("js-navbar-toggle");
+
+        navBarToggle.addEventListener("click", function() {
+        mainNav.classList.toggle("responsive");
+        });
+
+    </script>
+   
+</body>
+</html>
